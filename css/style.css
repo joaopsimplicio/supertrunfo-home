@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url("https://pm1.narvii.com/6975/eebc46294f4a5aa7fe559d002668c5eeda13ad0ar1-848-480v2_hq.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+    height: 200px;
+}
+
+.logo-img {
+    width: 1000px;
+    position: center;
+    margin-left: 100px;
+  }
+
+ul {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+a:hover, .active {
+    color: #cccc;
+}
